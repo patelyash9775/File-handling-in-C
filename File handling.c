@@ -6,7 +6,7 @@ int main()
  FILE *fp;
  char a[20];
  fp=fopen("My captain.txt","w");
- printf("Input to the reverse function : \n");
+ printf("Input to the reverse function: \n");
  gets(a);
  fprintf(fp,"%s",a);
  fclose(fp);
