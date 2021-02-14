@@ -12,7 +12,6 @@ int main()
     double id[20000];
     int y=0;
     printf("Id for the LONGITUDE greater than 8.4 and lesser than 9.4 :-  ");
-    printf("\nYear of. Entry                    Sex Status                    Martial Status\n");
     printf("\n");
     fp = fopen("3D_spatial_network.txt", "r");
     if (fp == NULL){
